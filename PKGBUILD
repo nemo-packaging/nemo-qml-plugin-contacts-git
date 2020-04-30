@@ -18,7 +18,7 @@ pkgdesc="Nemo QML contacts plugin"
 arch=('x86_64' 'aarch64')
 url="https://$_host/$_project/$_gitname#branch=$_branch"
 license=('BSD-3-Clause')
-depends=('qt5-declarative' 'qt5-pim-git' 'qt5-mlocale-git' 'qt5-mlite-git' 'qt5-contacts') 
+depends=('qt5-contacts')
 makedepends=('git' 'qt5-tools')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
